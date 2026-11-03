@@ -4,6 +4,10 @@
 
 ![100% free](https://img.shields.io/badge/100%25_free-brightgreen) ![open source](https://img.shields.io/badge/open_source-orange) ![bash + web](https://img.shields.io/badge/bash_%2B_web-blue)
 
+**Bóveda de enlaces gratuita y bilingüe (EN/ES): guarda, organiza y busca enlaces con notas, etiquetas y fechas. CLI en Bash + interfaz web. Sin cuenta.**
+
+**Contenido:** [Qué necesitas](#qué-necesitas) · [Instalación](#instalación) · [Empieza rápido](#empieza-rápido-guarda-tu-primer-enlace) · [Tags](#tags) · [Troubleshooting](#troubleshooting) · [Licencia](#licencia)
+
 **Qué es:** una app gratuita para guardar enlaces con una nota y tags, organizados automáticamente por fecha. Tiene dos caras: tres pequeños scripts de terminal y una página web visual.
 
 **Para quién es:** para cualquiera que pierde enlaces interesantes en historiales de chat, pestañas abiertas o capturas de pantalla. Si sabes copiar y pegar, puedes usarla.
