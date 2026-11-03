@@ -4,6 +4,10 @@
 
 ![100% free](https://img.shields.io/badge/100%25_free-brightgreen) ![open source](https://img.shields.io/badge/open_source-orange) ![bash + web](https://img.shields.io/badge/bash_%2B_web-blue)
 
+**Free bilingual (EN/ES) link vault: save, organize and search links with notes, tags and dates. Bash CLI + web UI. No account needed.**
+
+**Contents:** [What you need](#what-you-need) · [Install](#install) · [Quick start](#quick-start-save-your-first-link) · [Tags](#tags) · [Troubleshooting](#troubleshooting) · [License](#license)
+
 **What this is:** a free app to save links with a note and tags, organized automatically by date. It has two faces: three small terminal scripts and a visual web page.
 
 **Who it's for:** anyone who keeps losing interesting links in chat histories, open tabs, or screenshots. If you can copy and paste, you can use this.
