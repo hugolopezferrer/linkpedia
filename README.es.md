@@ -1,10 +1,10 @@
 🇪🇸 [Español](README.es.md) | 🇺🇸 [English](README.md)
 
-# Link Vault 🔗
+# Linkpedia 🔗
 
 ![100% free](https://img.shields.io/badge/100%25_free-brightgreen) ![open source](https://img.shields.io/badge/open_source-orange) ![bash + web](https://img.shields.io/badge/bash_%2B_web-blue)
 
-**Bóveda de enlaces gratuita y bilingüe (EN/ES): guarda, organiza y busca enlaces con notas, etiquetas y fechas. CLI en Bash + interfaz web. Sin cuenta.**
+**Linkpedia — tu enciclopedia personal de enlaces: guarda, organiza y busca enlaces con notas, etiquetas y fechas. Gratis y bilingüe (ES/EN). CLI en Bash + interfaz web. Sin cuenta.**
 
 **Contenido:** [Qué necesitas](#qué-necesitas) · [Instalación](#instalación) · [Empieza rápido](#empieza-rápido-guarda-tu-primer-enlace) · [Tags](#tags) · [Troubleshooting](#troubleshooting) · [Licencia](#licencia)
 
@@ -23,8 +23,8 @@
 **Paso 1 — Descárgala:**
 
 ```bash
-git clone https://github.com/hugolopezferrer/link-vault.git
-cd link-vault
+git clone https://github.com/hugolopezferrer/linkpedia.git
+cd linkpedia
 ```
 
 **Paso 2 — Haz ejecutables los scripts:**
@@ -116,7 +116,7 @@ Reglas que el script aplica por ti:
 Salida real de las estadísticas:
 
 ```
-📊 estadisticas de link-vault
+📊 estadisticas de linkpedia
 ============================
 total enlaces: 12
 con tags: 10
@@ -161,7 +161,7 @@ xdg-open index.html    # Linux
 open index.html        # macOS
 ```
 
-O en línea (si GitHub Pages está activado): https://hugolopezferrer.github.io/link-vault/
+O en línea (si GitHub Pages está activado): https://hugolopezferrer.github.io/linkpedia/
 
 La página permite agregar y **editar** enlaces con selector visual de tags, buscar en vivo, filtrar por tag, eliminar enlaces, **exportar/importar tus enlaces como JSON** y ver estadísticas.
 
@@ -182,9 +182,9 @@ Aviso honesto primero: **esta app no usa base de datos.** Nada se envía a ning�
 
 ### Instalarla como app
 
-<img src="icons/favicon.svg" width="96" alt="Mascota de Link Vault">
+<img src="icons/favicon.svg" width="96" alt="Mascota de Linkpedia">
 
-Este gatito es el ícono de acceso directo de Link Vault. Instálalo y úsalo para abrir la app sin escribir la dirección:
+Este gatito es el ícono de acceso directo de Linkpedia. Instálalo y úsalo para abrir la app sin escribir la dirección:
 
 - **En tu teléfono:** abre la página en Chrome → menú ⋮ → "Agregar a pantalla de inicio" (o "Instalar app"). El gatito aparece en tu inicio y abre en pantalla completa, como cualquier app.
 - **En escritorio:** en Chrome, Edge o Brave → menú → "Guardar y compartir" → "Crear acceso directo" → marca "Abrir como ventana". El gatito queda en tu escritorio/barra de tareas y abre en su propia ventana.
@@ -210,7 +210,7 @@ Puedes inventar tus propios tags libremente — `trabajo`, `ia`, `recetas` — c
 Todo es texto plano. Nada que se rompa, nada que exportar — tus datos ya son archivos.
 
 ```
-link-vault/
+linkpedia/
 ├── README.md               # Este archivo en inglés
 ├── README.es.md            # Este archivo
 ├── LICENSE                 # Licencia MIT

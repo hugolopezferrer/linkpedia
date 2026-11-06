@@ -2,7 +2,7 @@
 set -e
 
 # =====================================================
-# link-vault - buscar enlaces por texto o tag
+# linkpedia - buscar enlaces por texto o tag
 # uso: search_links.sh [texto] [-t tag]
 # =====================================================
 

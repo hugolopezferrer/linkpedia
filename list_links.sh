@@ -2,7 +2,7 @@
 set -e
 
 # =====================================================
-# link-vault - listar enlaces guardados
+# linkpedia - listar enlaces guardados
 # uso: list_links.sh [YYYY-MM-DD] [-t tag] [-s]
 # =====================================================
 
@@ -64,7 +64,7 @@ has_tag() {
 
 # mostrar estadisticas
 if [[ "$mostrar_stats" == true ]]; then
-    echo "📊 estadisticas de link-vault"
+    echo "📊 estadisticas de linkpedia"
     echo "============================"
     total=0
     total_con_tags=0

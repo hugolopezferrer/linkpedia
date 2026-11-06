@@ -2,7 +2,7 @@
 set -e
 
 # =====================================================
-# link-vault - script para agregar un nuevo enlace
+# linkpedia - script para agregar un nuevo enlace
 # tags: cualquier tag personalizado (separados por coma)
 # =====================================================
 

@@ -1,10 +1,10 @@
 🇺🇸 [English](README.md) | 🇪🇸 [Español](README.es.md)
 
-# Link Vault 🔗
+# Linkpedia 🔗
 
 ![100% free](https://img.shields.io/badge/100%25_free-brightgreen) ![open source](https://img.shields.io/badge/open_source-orange) ![bash + web](https://img.shields.io/badge/bash_%2B_web-blue)
 
-**Free bilingual (EN/ES) link vault: save, organize and search links with notes, tags and dates. Bash CLI + web UI. No account needed.**
+**Linkpedia — your personal encyclopedia of links: save, organize and search links with notes, tags and dates. Free and bilingual (EN/ES). Bash CLI + web UI. No account needed.**
 
 **Contents:** [What you need](#what-you-need) · [Install](#install) · [Quick start](#quick-start-save-your-first-link) · [Tags](#tags) · [Troubleshooting](#troubleshooting) · [License](#license)
 
@@ -23,8 +23,8 @@
 **Step 1 — Download it:**
 
 ```bash
-git clone https://github.com/hugolopezferrer/link-vault.git
-cd link-vault
+git clone https://github.com/hugolopezferrer/linkpedia.git
+cd linkpedia
 ```
 
 **Step 2 — Make the scripts executable:**
@@ -118,7 +118,7 @@ Rules the script applies for you:
 Real statistics output:
 
 ```
-📊 estadisticas de link-vault
+📊 estadisticas de linkpedia
 ============================
 total enlaces: 12
 con tags: 10
@@ -163,7 +163,7 @@ xdg-open index.html    # Linux
 open index.html        # macOS
 ```
 
-Or online (if GitHub Pages is enabled): https://hugolopezferrer.github.io/link-vault/
+Or online (if GitHub Pages is enabled): https://hugolopezferrer.github.io/linkpedia/
 
 The page lets you add and **edit** links with a visual tag picker, search live, filter by tag, delete links, **export/import your links as JSON**, and see statistics.
 
@@ -184,9 +184,9 @@ Honest warning first: **this app has no database.** Nothing is sent to any serve
 
 ### Install it as an app
 
-<img src="icons/favicon.svg" width="96" alt="Link Vault mascot">
+<img src="icons/favicon.svg" width="96" alt="Linkpedia mascot">
 
-This little cat is the Link Vault shortcut icon. Install it and use it to open the app without typing the address:
+This little cat is the Linkpedia shortcut icon. Install it and use it to open the app without typing the address:
 
 - **On your phone:** open the page in Chrome → menu ⋮ → "Add to Home screen" (or "Install app"). The cat appears on your home screen and opens full-screen, like any app.
 - **On desktop:** in Chrome, Edge or Brave → menu → "Save and share" → "Create shortcut" → check "Open as window". The cat lands on your desktop/taskbar and opens in its own window.
@@ -212,7 +212,7 @@ You can invent your own tags freely — `trabajo`, `ia`, `recetas` — anything 
 Everything is plain text. No database to break, no export needed — your data is already files.
 
 ```
-link-vault/
+linkpedia/
 ├── README.md               # This file
 ├── README.es.md            # Spanish version
 ├── LICENSE                 # MIT license

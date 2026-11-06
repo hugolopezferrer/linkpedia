@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Link Vault - Gestor de Enlaces</title>
+    <title>Linkpedia - Gestor de Enlaces</title>
     <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <link rel="manifest" href="manifest.json">
@@ -501,7 +501,7 @@
                 <button data-lang="es" class="active" onclick="setLang('es')">🇪🇸 ES</button>
                 <button data-lang="en" onclick="setLang('en')">🇺🇸 EN</button>
             </div>
-            <h1>🔗 Link Vault</h1>
+            <h1>🔗 Linkpedia</h1>
             <p data-i18n="subtitle">Tu gestor de enlaces organizado por fecha y tags</p>
         </header>
 
@@ -592,7 +592,7 @@
         // ---- I18N: all visible strings (tag ids never change; only display labels translate) ----
         const STR = {
             es: {
-                title: 'Link Vault - Gestor de Enlaces',
+                title: 'Linkpedia - Gestor de Enlaces',
                 subtitle: 'Tu gestor de enlaces organizado por fecha y tags',
                 statLinks: 'Enlaces', statDays: 'Días', statTags: 'Tags usados',
                 formTitle: '➕ Agregar Nuevo Enlace',
@@ -620,7 +620,7 @@
                 locale: 'es-ES'
             },
             en: {
-                title: 'Link Vault - Link Manager',
+                title: 'Linkpedia - Link Manager',
                 subtitle: 'Your link manager, organized by date and tags',
                 statLinks: 'Links', statDays: 'Days', statTags: 'Tags used',
                 formTitle: '➕ Add New Link',
@@ -649,7 +649,7 @@
             }
         };
 
-        let lang = localStorage.getItem('link-vault-lang') || 'es';
+        let lang = localStorage.getItem('linkpedia-lang') || localStorage.getItem('link-vault-lang') || 'es';
 
         function t(key) {
             const v = STR[lang][key];
@@ -664,7 +664,7 @@
 
         function setLang(l) {
             lang = l;
-            localStorage.setItem('link-vault-lang', l);
+            localStorage.setItem('linkpedia-lang', l);
             document.documentElement.lang = l;
             document.querySelectorAll('.lang-toggle button').forEach(b =>
                 b.classList.toggle('active', b.dataset.lang === l));
@@ -682,7 +682,7 @@
         }
 
         // State (migrates the old 'links-app' key once)
-        let links = JSON.parse(localStorage.getItem('link-vault') || localStorage.getItem('links-app') || '[]');
+        let links = JSON.parse(localStorage.getItem('linkpedia') || localStorage.getItem('link-vault') || localStorage.getItem('links-app') || '[]');
         let currentFilter = '';
         let searchQuery = '';
         let editingId = null;
@@ -848,7 +848,7 @@
             const blob = new Blob([JSON.stringify(links, null, 2)], { type: 'application/json' });
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
-            a.download = 'link-vault-' + new Date().toISOString().slice(0, 10) + '.json';
+            a.download = 'linkpedia-' + new Date().toISOString().slice(0, 10) + '.json';
             a.click();
             URL.revokeObjectURL(a.href);
             showToast(t('toastBackup'));
@@ -918,7 +918,7 @@
 
         // Save to localStorage
         function saveLinks() {
-            localStorage.setItem('link-vault', JSON.stringify(links));
+            localStorage.setItem('linkpedia', JSON.stringify(links));
             localStorage.removeItem('links-app');
         }
 
